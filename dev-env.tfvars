@@ -1,0 +1,9 @@
+env              = "dev"
+instance_type    = "t2.micro"
+key_name         = "londonserver"
+subnet_ranges    = ["subnet-02a9e5d00bbb8cc25", "subnet-0644c8c5d8ada7398", "subnet-04fb6726c16bdd4ca"]
+subnet_id        = "subnet-0644c8c5d8ada7398"
+vpc_id           = "vpc-043e1dc52827b0366"
+zone_id          = "Z09260421JOI5FT3JLU3F"
+ebs_volume_size  = 13
+root_volume_size = 10

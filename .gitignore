@@ -1,0 +1,30 @@
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# vscode
+.vscode
+
+#terraform
+*.terraform
+*.terraform/
+*.tfstate
+*.tfstate.*
+*.terraform.lock.hcl
+
+#intellij
+.idea/
+*.iml
+
+#MacOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+#Ansible functions
+*.retry
+ansible.cfg
+ansible.log
+ 
